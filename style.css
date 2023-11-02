@@ -41,8 +41,8 @@ div.ballDiv {
     flex-wrap: wrap;
     width: 30%;
     height: 80%;
-    min-width: 563px;
-    min-height: 654px;
+    min-width: 35em;
+    min-height: 10em;
     align-items: center;
     justify-content: center;
     background-image: url(img/crystalBall2.jpg);
@@ -68,11 +68,11 @@ div.button {
     justify-content: center;
 }
 
-form.inputForm{
+form.inputForm {
     width: 30%;
     height: 40%;
-    min-width: 563px;
-    min-height: 28px;
+    min-width: 35em;
+    min-height: 1em;
 }
 
 input.inputQue {
@@ -89,7 +89,7 @@ input.inputQue {
 button.confirm {
     width: 15%;
     height: 60%;
-    min-width: 281px;
+    min-width: 10em;
     min-height: 43px;
     justify-content: center;
     align-items: center;
