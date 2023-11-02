@@ -6,6 +6,8 @@ let questionTrimmed = new String();
 let decision;
 let text = document.createTextNode('');
 
+let all = document.createElement('div');
+all.className = 'all';
 let elementInput = document.createElement('div');
 let fieldDiv = document.createElement('div');
 let buttonDiv = document.createElement('div');
@@ -42,7 +44,7 @@ buttonConfirm.onclick = () => {
 let textButton = document.createTextNode('Get the answer...');
 buttonConfirm.appendChild(textButton);
 buttonDiv.appendChild(buttonConfirm);
-document.body.appendChild(elementInput);
+all.appendChild(elementInput);
 
 let elementOutput = document.createElement('div');
 let ballDiv = document.createElement('div');
@@ -53,4 +55,5 @@ divText.className = 'textDiv';
 ballDiv.appendChild(divText);
 elementOutput.appendChild(ballDiv);
 elementOutput.className = 'output';
-document.body.appendChild(elementOutput);
+all.appendChild(elementOutput);
+document.body.appendChild(all);
